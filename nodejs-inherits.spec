@@ -4,7 +4,7 @@
 
 Name:       %{?scl_prefix}nodejs-inherits
 Version:    2.0.0
-Release:    10.sc1%{?dist}
+Release:    13%{?dist}
 Summary:    A tiny simple way to do classic inheritance in js
 License:    WTFPL
 Group:      Development/Libraries
@@ -86,6 +86,9 @@ EOF
 %doc README.md LICENSE
 
 %changelog
+* Tue Feb 09 2016 Tomas Hrcka <thrcka@redhat.com> - 2.0.0-13
+- Sync build versions for clean ugrade path
+
 * Fri Oct 23 2015 Zuzana Svetlikova <zsvetlik@redhat.com> - 2.0.0-10
 - Switched symlink and commented out %%pretrans scriptlet (RHBZ#1273117)
 
